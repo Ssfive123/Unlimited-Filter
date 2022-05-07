@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("⚜️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚜️", callback_data="help_data")
                 ]
             ]
         )
@@ -47,12 +47,15 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("⚜️ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs ʙᴜᴛᴛᴏɴs ⚜️", callback_data="close_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/ciemahub182"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/ciemahub182")
+                    InlineKeyboardButton("⚡ Gʀᴏᴜᴘ", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("🤴 ᴏɴᴡᴇʀ", callback_data="about_data")
+                ],
+                [
+                    InlineKeyboardButton("🔮 Cʜᴀɴɴᴇʟ", url="https://t.me/moviehubgroupp"),
+                    InlineKeyboardButton("🛠️ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Coby_Support")
                 ]
             ]
         )
@@ -69,12 +72,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/Anandhu123555?tab=repositories")
-                ],
-                [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("🔮 ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴘᴀɢᴇ 🔮", callback_data="help_data")
                 ]                
             ]
         )
